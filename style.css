@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    scroll-behavior: smooth; 
+}
+
+header{
+    background-color: rgb(247, 245, 245);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.nav a{
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 35px;
+}
+
+nav a:hover {
+    color: #b600bd;
+}
+
+section{
+    padding: 100px 200px ;
+    transition: 2s;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.849);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.main h2 {
+    color: rgb(247, 245, 245) ;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    color: rgb(0, 0, 255);
+    font-size: 3em;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 10px;
+} 
+ .main h3{
+    color: rgb(247, 245, 245) ;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+ }
+
+ .projects_btm{
+    color: rgb(247, 245, 245) ;
+    background-color: rgb(0, 0, 255);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+ }
+
+ .projects_btm:hover{
+    background-color: blue;
+    transform: scale(1.05);
+ }
+ .social_icons a{
+    color: rgb(247, 245, 245) ;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 255);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.contant{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+ 
+.card{
+    display: inline-block;
+    background-color: white;
+    width: 16em;
+    box-shadow: 0 5px 25px rgba(180, 173, 173, 0.87);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: rgb(0, 0, 255);
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: rgb(0, 0, 255);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+.projects{
+
+    background-color:rgba(0, 0, 0, 0.849);
+    flex-direction: row;
+
+}
+.projects .content{
+    margin-top: 30px;
+    display: inline-block;
+}
+.project_card{
+    background-color: rgb(255, 255, 255) ;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 16em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project_card:hover{
+    transform: scale(1.1);
+}
+.project_card:hover .project_image{
+    opacity: 0.9;
+}
+
+.project_image img{
+    width: 100%;
+    
+}
+.project_info{
+    padding: 1em;
+}
+.project_dif{
+    font-size: 0,7em;
+    color: black;
+
+}
+.project_tittle{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.veiw{
+    text-decoration: none;
+    color: blue;
+}
+.veiw:hover{
+    color: #b600bd;
+}
+
+.contact .icon {
+    font-size: 4.5em;
+
+}
+.contact .info .h3{
+    color: black;
+}
+
+
+.footer{
+    background-color:rgba(0, 0, 0, 0.849);
+    color: wheat;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_title{
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+.footer_title span{
+    color: rgb(0, 0, 255);
+}
+
+.footer .social_icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+@media (max-width:1200px) and (min-width:800px){
+    header{
+        padding:15px 25px 15px 25px ;
+        font-size: 1.5em;
+    }
+
+    .main{
+        padding-left: 50px;
+    }
+
+    .main h2{
+        font-size: 1.9em;
+    }
+
+    .cards .content{
+        padding-left: 13%;
+    }
+
+    .projects .content{
+        padding-left: 13%;
+    }
+}
+
+
+@media (max-width:800px) and (min-width:600px){
+    header{
+        padding:15px 25px 15px 25px ;
+        font-size: 1.5em;
+    }
+
+    .main{
+        padding-left: 50px;
+    }
+
+    .main h2{
+        font-size: 1.9em;
+    }
+
+    .cards .content{
+        margin-left: -15%;
+    }
+
+    .projects .content{
+        margin-left: -15%;
+    }
+}
+
+@media (max-width:599px){
+    header{
+        padding:15px 25px 15px 25px ;
+        font-size: 1.5em;
+    }
+
+    .main{
+        padding-left: 50px;
+    }
+
+    .main h2{
+        font-size: 1.9em;
+    }
+
+    .cards .content{
+        margin-left: -15%;
+    }
+
+    .projects .content{
+        margin-left: -15%;
+    }
+}

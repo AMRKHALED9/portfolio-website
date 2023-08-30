@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(226, 218, 218);
+}
+.dad-div{
+    color: rgba(20, 20, 250, 0.719);
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 1000;
+    width: 300px;
+    padding-left:5px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+
+}
+#dad-div{
+    font-size: 25px;
+    text-align: center;
+    width: 409px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.father-div{
+    margin-top: 3em;
+}
+.email{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.5em;
+    height: 320px;
+    width: 370px;
+    margin-left:auto ;
+    margin-right:auto ;
+    padding: 15px;
+}
+.email:focus{
+    outline: none;
+}
+
+#email{
+    border: rgb(150, 148, 148) 1px solid;
+    width: 345px;
+    height: 45px;
+    text-align: right;
+    border-radius: 0.15cm;
+    padding-right: 1em;
+}
+#email:focus{
+    outline: none;
+}
+#div-password{
+    height: 45px;
+    width:362px ;
+    text-align: right;
+    border-radius: 0.15cm; 
+    margin-top:15px ;
+    margin-bottom:15px ;
+}
+
+#password{
+    height: 45px;
+    width:345px ;
+    border: rgb(150, 148, 148) 1px solid;
+    text-align: right;
+    border-radius: 0.15cm; 
+    margin-bottom:15px ;
+    padding-right: 1em;
+
+}
+#password:focus{
+    outline: none;
+}
+.submit{
+    background-color:  rgba(20, 20, 250, 0.719);
+    width: 362px;
+    height: auto;
+    text-align: right;
+    border-radius: 0.15cm;
+    border-width: 1px;
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+    padding-top: 15px;   
+    padding-bottom: 10px;  
+    border: white 1px solid; 
+}
+.submit:hover{
+    width: 355px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:  rgba(25, 25, 250, 0.808);
+}
+#forget{
+    color: rgb(20, 20, 250, 0.719);
+    text-decoration: none;
+    text-align: center;
+}
+#dad-forget{
+    color: rgba(20, 20, 250, 0.719) ;
+    font-size:15px;
+    padding-left: 135px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#new-acount{
+    background-color: rgb(25, 196, 25);
+    border-radius: 0.15cm;
+    font-size: 17px;
+    height: 15px;
+    width: 130px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-top:0.7em;
+    margin-left: 7em;
+    margin-right:auto ;
+    color: white;
+    text-decoration:none;
+    display: inline-block;
+}
+#new-acount:hover{
+    width: 127px;
+    margin-left: 120px;
+    margin-right: auto;
+}
+#dad-new-page{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#new-page{
+    color: black;
+    text-decoration: none;
+}
+#new-page:hover{
+    color: blue;
+}
